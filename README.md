@@ -27,7 +27,7 @@ jobs:
       run: |
         ...
     - name: Commit & Push changes
-      uses: Andro999b/push@v1.3
+      uses: Smart-Transportation/push@v1.3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
